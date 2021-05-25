@@ -1,0 +1,3 @@
+export const SET_USER_EMAIL="SET_USER_EMAIL";
+export const UNSET_USER_EMAIL="UNSET_USER_EMAIL";
+

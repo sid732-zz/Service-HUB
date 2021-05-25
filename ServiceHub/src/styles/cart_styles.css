@@ -1,0 +1,136 @@
+.a-h2{
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  color:whitesmoke;
+}
+/* a{
+  color: whitesmoke;
+  text-decoration: none;
+  text-decoration-color: white;
+} */
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.col{
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.marg{
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.a-hr{
+  background-color: black;
+  opacity: 60%;
+}
+.a-block{
+  color: black;
+  background-color: #0a4950;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem; 
+}
+@media only screen and (min-width: 1024px) {
+  .a-block.summary{
+    /* position:absolute;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px; */
+    width: 48%;
+    float: left;
+  }
+}
+.row.center{
+  align-items: center;
+}
+.a-button{
+  font-size: 1rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-color: rgb(65, 66, 66);
+  width: 1.5rem;
+  cursor: pointer;
+}
+.a-button.counter{
+  color: white;
+  font-weight: bold;
+  opacity: 50%;
+  margin: 0rem;
+  border-radius: 0.35rem;
+}
+.empty{
+  color: rgb(226, 226, 226);
+  width: 6rem;
+  font-weight: bold;
+  background-color: rgb(248, 95, 125);
+  font-size: small;
+}
+.empty:hover{
+  color: rgb(226, 226, 226);
+  width: 6.5rem;
+  font-weight: bold;
+  background-color: rgb(190, 8, 44);
+  font-size: small;
+}
+.row.price{
+  justify-content: flex-end, space-evenly;
+  margin: 0 8.5rem;
+}
+.a-button.checkout{
+  color: rgb(63, 59, 59);
+  font-weight: bold;
+  width: 7rem;
+  height: 3rem;
+  background-color: rgb(78, 233, 148);
+  font-size: small;
+}
+.a-button.checkout:hover{
+  color: rgb(63, 59, 59);
+  font-weight: bold;
+  width: 7.8rem;
+  background-color: rgb(11, 207, 100);
+  font-size: small;
+}
+.row.check{
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 0.5rem;
+  justify-content: flex-end;
+}
+.a-main{
+  box-shadow: 5px 10px 8px 5px rgba(3, 65, 65, 0.418);
+  background-color: #052124;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://autopilothq.com/uploads/2017/03/20170329-shopping-1-large.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg{
+  color:rgba(6,114,24,0.945);
+  background-color: rgba(221, 220, 220, 0.9);
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+.trow{
+  width: auto;
+}
+.a-button.counter.remove{
+  background-color: rgba(235,38,38,1);
+  opacity:80%;
+  border:none;
+  font-weight: lighter;
+}
+.a-button.counter.remove:hover{
+  background-color: rgba(235,8,8,1);
+  font-weight: lighter;
+}
+.empty-image{
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  margin-right: 1px;
+}
